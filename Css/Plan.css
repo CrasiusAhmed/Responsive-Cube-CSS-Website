@@ -1,0 +1,151 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 1650px)
+{
+
+}
+@media (max-width : 1500px)
+{
+
+}
+@media (max-width : 1350px)
+{
+    .cube-open-c1 {
+        left: 190%;
+        transform: translate(-50%, -50%) scale(0.75);
+    }
+    .scale2, .scale3 {
+        left: -38%;
+    }
+    .scale3 {
+        position: relative;
+        left: -74%;
+    }
+}
+@media (max-width : 1200px)
+{
+    .bio, .bio2 {
+        transform: scale(0.8);
+    }
+    .bio {
+        transform: translate(-105px, 25px) scale(0.8);
+    }
+}
+@media (max-width : 1100px)
+{
+    .f1::before, 
+    .f2::before, 
+    .f3::before {
+        width: 150px;
+        height: 150px;
+    }
+
+
+
+
+    .cube-open-c1 {
+        left: 155%;
+        transform: translate(-50%, -50%) scale(0.7);
+    }
+    .scale-box {
+        transform: scale(1.1);
+    }
+}
+@media (max-width : 960px)
+{
+    .scale2, .scale3 {
+        transform: scale(1.2);
+        left: -118%;
+    }
+    .scale3 {
+        left: 0%;
+        top: -109%;
+    }
+    .card-inside1, .card-inside2, .card-inside3 {
+        top: 27%;
+        left: 60%;
+        z-index: -1;
+    }
+    .cube-open-c1 {
+        top: -70%;
+        left: 90%;
+        transform: translate(-50%, -50%) scale(0.7);
+    }
+}
+@media (max-width : 788px)
+{
+    .client {
+        transform: translateY(0px);
+    }
+    .bio, .bio2 {
+        flex-direction: column;
+    }
+    .f1, .f2, .f3 {
+        width: 75%;
+    }
+    .text-letter2 {
+        letter-spacing: 35px;
+    }
+    .blog::before {
+        left: 80%;
+    }
+
+
+    .f-ps
+    {
+        top: 0;
+        transform: translate(-50%, -50%) scale(0.55);
+    }
+    .cube-open-c1 {
+        top: -55%;
+        left: 20%;
+        transform: translate(-50%, -50%) scale(0.6);
+    }
+    .card-inside1, .card-inside2, .card-inside3 {
+        top: 54%;
+        left: 47%;
+    }
+    .scale2, .scale3 {
+        transform: scale(1.2);
+        left: 0;
+        top: -110%;
+    }
+    .scale3 {
+        top: -220%;
+    }
+}
+@media (max-width : 545px)
+{
+    .text-letter2 {
+        letter-spacing: 20px;
+    }
+
+
+    .f-ps {
+        top: 40%;
+        transform: translate(-50%, -50%) scale(0.45);
+    }
+    .link {
+        left: -25%;
+        grid-gap: 40px;
+    }
+}
