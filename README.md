@@ -1,6 +1,6 @@
 <h1>Responsive Full Website Using HTML And CSS And JavaScript Without Any Image | 3D CSS Design</h1>
 
-This Beautiful Website is a fully responsive ecommerce website, maximum compatiblities in all mobile devices, built using HTML, CSS, and JavaScript.
+This Beautiful Website is a fully responsive website, maximum compatiblities in all mobile devices, built using HTML, CSS, and JavaScript.
 
 <h1>Demo</h1>
 
@@ -17,7 +17,8 @@ If You want to learn how we create this project checkout our channel Crasius
 to learn And Support Us As Always
 
 <h1>Contact</h1>
-If you want to contact me you can reach me at Youtube And Telegram.
+If you want to contact me you can reach me at Youtube And Telegram And Twitter.
+Crasius :)
 
 <h1>License</h1>
-This project is free to use and does not contains any license.
+This project is licensed under the MIT License - see the LICENSE file for details.
