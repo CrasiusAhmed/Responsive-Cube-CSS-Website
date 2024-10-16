@@ -1,3 +1,257 @@
+.contact
+{
+    display: grid;
+    grid-template-columns: 0.3fr 1.7fr;
+    align-items: center;
+    grid-gap: 50px;
+    height: 700px;
+    position: relative;
+}
+.text-letter3 {
+    letter-spacing: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cube-open5
+{
+    transform: translate(-50%, -50%) scale(1.5);
+    animation: none;
+    z-index: -1;
+    top: 40%;
+    left: 24%;
+    filter: grayscale(1) contrast(1.2);
+}
+.cube-open6
+{
+    transform: translate(-50%, -50%) scale(0.7);
+    animation: none;
+    z-index: -1;
+    top: 9%;
+    left: 64%;
+    filter: grayscale(1) contrast(1.2);
+}
+@keyframes cube5
+{
+    0%
+    {
+        transform: rotateX(11deg) rotateY(30deg) rotate(305deg);
+    }
+    20%
+    {
+        transform: rotateX(34deg) rotateY(-36deg) rotate(270deg);
+    }
+    40%
+    {
+        transform: rotateX(-21deg) rotateY(15deg) rotate(240deg);
+    }
+    60%
+    {
+        transform: rotateX(4deg) rotateY(-41deg) rotate(250deg);
+    }
+    80%
+    {
+        transform: rotateX(83deg) rotateY(-28deg) rotate(312deg);
+    }
+    100%
+    {
+        transform: rotateX(11deg) rotateY(30deg) rotate(305deg);
+    }
+}
+
+
+form
+{
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 50px;
+    margin: 0 auto;
+    position: relative;
+}
+.f1-form,
+.f2-form
+{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 12px;
+}
+label
+{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-left: 10px;
+}
+input,
+textarea,
+button
+{
+    width: 300px;
+    padding: 15px;
+    background: #09091a;
+    border-radius: 30px;
+    border: 2px solid #b1b1b1;
+    color: white;
+}
+textarea
+{
+    height: 250px;
+    border-radius: 20px;
+}
+button
+{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.flex-text
+{
+    display: flex;
+    grid-gap: 100px;
+    transform: translateY(50px);
+    width: 600px;
+}
+.flex-text a
+{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+/*     footer-page     */
+.bg-footer
+{
+    position: relative;
+    background: #e1e1e1;
+}
+.footer
+{
+    display: flex;
+    grid-gap: 200px;
+}
+.logo-text
+{
+    margin: auto 0;
+    position: relative;
+}
+.logo-text h1
+{
+    font-size: 3.0rem;
+    color: black;
+}
+.flex-footer
+{
+    display: flex;
+}
+.col
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px 0px 0px;
+    position: relative;
+}
+.col a
+{
+    color: #111011c0;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 1.0rem;
+    font-weight: 400;
+    transition: .4s;
+    position: relative;
+}
+.col a:hover
+{
+    color: black;
+    transform: scale(1.2);
+}
+
+.bg-footer::before
+{
+    content: '';
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 2px;
+    background: black;
+}
+
+
+.social
+{
+    display: flex;
+    grid-gap: 25px;
+}
+.social ion-icon
+{
+    font-size: 1.5rem;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.col p 
+{
+    color: black;
+    font-size: 1.2rem;
+    width: 100px;
+    position: relative;
+}
+.col p::before
+{
+    content: '';
+    position: absolute;
+    top: 145%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-10deg);
+    width: 140px;
+    height: 2px;
+    background: black;
+}
+.col:nth-child(3) p 
+{
+    width: 100%;
+}
+
+
+/* Scroll Animation */
+
+.scroll-width
+{
+    width: 0;
+    height: 100px;
+    scale: 0;
+    transition: 1.5s ease;
+}
+.scroll-width.show
+{
+    scale: 1;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
